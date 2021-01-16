@@ -1,0 +1,16 @@
+2021-01-17 02:37:55,099  INFO HttpOperationImpl:44 - Query Frequency of portId is 1
+2021-01-17 02:37:55,365  INFO HttpOperationImpl:69 - response is {"n":0,"m":8}
+2021-01-17 02:37:55,402  INFO HttpOperationImpl:55 - Result is Frequency{n=0, m=8} for JsonStr is [{"n":0,"m":8}]
+2021-01-17 02:38:08,137  INFO HttpOperationImpl:44 - Query Frequency of portId is 1
+2021-01-17 02:38:08,218  INFO HttpOperationImpl:69 - response is {"n":0,"m":8}
+2021-01-17 02:38:08,253  INFO HttpOperationImpl:55 - Result is Frequency{n=0, m=8} for JsonStr is [{"n":0,"m":8}]
+2021-01-17 02:38:16,358  INFO HttpOperationImpl:75 - set freq to Frequency{n=2, m=8} for portId 1
+2021-01-17 02:38:16,477  INFO HttpOperationImpl:69 - response is true
+2021-01-17 02:38:16,490  INFO HttpOperationImpl:44 - Query Frequency of portId is 1
+2021-01-17 02:38:16,495  INFO HttpOperationImpl:69 - response is {"n":2,"m":8}
+2021-01-17 02:38:16,502  INFO HttpOperationImpl:55 - Result is Frequency{n=2, m=8} for JsonStr is [{"n":2,"m":8}]
+2021-01-17 02:38:24,540  INFO HttpOperationImpl:69 - response is {"location":"1-2-2","power":-12,"osnr":65,"id":2,"freq":{"n":6,"m":6},"state":"SD"}
+2021-01-17 02:38:32,413  INFO HttpOperationImpl:69 - response is [{"location":"1-2-1","power":-2,"osnr":70,"id":1,"freq":{"n":2,"m":8},"state":"NORMAL"},{"location":"1-2-4","power":-3,"osnr":65,"id":4,"freq":{"n":10,"m":6},"state":"NORMAL"}]
+2021-01-17 02:38:39,921  INFO HttpOperationImpl:69 - response is true
+2021-01-17 02:38:39,939  INFO HttpOperationImpl:69 - response is {"location":"1-2-6","power":2,"osnr":0,"id":6,"freq":{"n":18,"m":6},"state":null}
+2021-01-17 02:38:49,836  INFO HttpOperationImpl:69 - response is false

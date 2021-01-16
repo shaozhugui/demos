@@ -1,0 +1,5 @@
+1. model提供公共类和接口；
+2. serverdemo利用springboot简单实现了一个server，实现了model定义的接口；需要java -jar运行该模块target下的编译jar包
+3. clientsimulate模拟UI向server发送http消息（依赖httpClient），并利用Testng对返回数据做校验——即接口级自动化。
+4. portDemo.postman_collection.json为PostMan导出的测试用例。
+

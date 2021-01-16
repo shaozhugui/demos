@@ -1,0 +1,5 @@
+api\PortService.class
+model\AlarmState.class
+model\Frequency.class
+api\SetFreqRequest.class
+model\Port.class

@@ -1,0 +1,22 @@
+2021-01-17 02:51:01,296  INFO DemoStart:55 - Starting DemoStart v1.0-SNAPSHOT on LAPTOP-BCNFDQ88 with PID 8468 (D:\DemoTest\autotestdemo\serverdemo\target\serverdemo-1.0-SNAPSHOT.jar started by shaozhugui in D:\DemoTest\autotestdemo\serverdemo)
+2021-01-17 02:51:01,304 DEBUG DemoStart:56 - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2021-01-17 02:51:01,305  INFO DemoStart:651 - No active profile set, falling back to default profiles: default
+2021-01-17 02:51:02,419  INFO DemoStart:61 - Started DemoStart in 1.454 seconds (JVM running for 2.49)
+2021-01-17 02:51:11,704 DEBUG PortServiceImpl:26 - get port [id = 1] frequency is : Frequency{n=0, m=8}
+2021-01-17 02:51:21,346 DEBUG PortServiceImpl:45 - set freq from Frequency{n=0, m=8} to Frequency{n=30, m=6} for port [id = 1]
+2021-01-17 02:51:27,187 DEBUG PortServiceImpl:51 - get port of id = 2, the port is Port{location='1-2-2', power=-12, osnr=65, id=2, freq=Frequency{n=6, m=6}, state=SD}
+2021-01-17 02:51:31,878 DEBUG PortServiceImpl:58 - get ports of state is SD, ports is [Port{location='1-2-2', power=-12, osnr=65, id=2, freq=Frequency{n=6, m=6}, state=SD}]
+2021-01-17 02:51:41,385 DEBUG PortServiceImpl:58 - get ports of state is NORMAL, ports is [Port{location='1-2-1', power=-2, osnr=70, id=1, freq=Frequency{n=30, m=6}, state=NORMAL}, Port{location='1-2-4', power=-3, osnr=65, id=4, freq=Frequency{n=10, m=6}, state=NORMAL}]
+2021-01-17 02:51:49,919  INFO PortServiceController:63 - input is {
+    "location":"1-2-5",
+    "power":2,
+    "osnr":30,
+    "id":5,
+    "freq":{
+        "n":10,
+        "m":8
+    },
+    "state":"SF"
+}
+2021-01-17 02:51:49,922  INFO PortServiceController:77 - new port is Port{location='1-2-5', power=2, osnr=30, id=5, freq=Frequency{n=10, m=8}, state=SF}
+2021-01-17 02:51:49,922 DEBUG PortServiceImpl:69 - config new port: [Port{location='1-2-5', power=2, osnr=30, id=5, freq=Frequency{n=10, m=8}, state=SF}] success.
