@@ -7,6 +7,7 @@ import model.Frequency;
 import model.Port;
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
+import org.apache.http.client.ClientProtocolException;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.HttpPost;
 import org.apache.http.entity.StringEntity;
@@ -65,6 +66,11 @@ public class HttpOperationImpl implements HttpOperation {
         request.setEntity(entity);
         request.addHeader("Content-Type", "application/json;charset=utf-8");
         HttpResponse response = HTTPCLIENT.execute(request);
+        int status = response.getStatusLine().getStatusCode();
+        if (status < 200 ||  status >= 300) {
+            LOG.error("response statu is {}", status);
+            throw new ClientProtocolException("UnExpected statu: "+ status);
+        }
         String result = EntityUtils.toString(response.getEntity());
         LOG.info("response is {}", result);
         return result;
