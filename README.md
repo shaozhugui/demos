@@ -4,7 +4,7 @@
 4. portDemo.postman_collection.json为PostMan导出的测试用例。
 
 clientsimulate可以继续扩展，做自动化驱动程序；
-serverdemo可以替换为任何开发了接口的系统、设备、仪表等。
+serverdemo可以替换为任何开放了接口的系统、设备、仪表等。
 
 需要持续改进的点：
 1. API接口可以采用yaml或yang定义进行编译生成，尤其是复杂接口下；
